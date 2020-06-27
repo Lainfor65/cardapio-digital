@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+/* GERAL */
+body {
+    margin: 0 10px;
+}
+p, a {
+    font-family: Roboto;
+}
+
+h1, h2 {
+    color: #B71524;
+    padding: 8px 0;
+}
+
+.barra {
+    height: 2px;
+    background-color: #000;
+    width: 100%;
+}

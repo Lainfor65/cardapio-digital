@@ -1,0 +1,73 @@
+/* MAIN */
+
+.home-main, .home-footer {
+    text-align: center;
+}
+.home-main img {
+    margin-top: 30px;;
+}
+.home-main h1 {
+margin: 10px auto;
+max-width: 150px;
+
+font-family: Yatra One;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 45px;
+text-align: center;
+
+color: #000000;
+}
+
+.home-main p {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+margin: 35px 0 10px 0;
+
+color: #000000;
+}
+
+.home-main a {
+    font-size: 16px;
+    line-height: 19px;
+
+    display: block;
+    padding: 10px 20px;
+    margin: 5px auto;
+    max-width: 130px;
+
+    border: 1px solid #B71524;
+    border-radius: 6px;
+
+    color: #000;
+    transition: 300ms;
+}
+
+.home-main a:hover {
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration: underline #B71524;
+}
+
+main nav a span {
+    background-image: url("../img/icon/arrow_right.svg");
+    height: 24px;
+    width: 24px;
+}
+
+/* Footer */
+.home-footer p {
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+.home-footer span {
+    font-weight: bold;
+}
