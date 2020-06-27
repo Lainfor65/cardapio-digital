@@ -108,11 +108,12 @@
 
 .acompanhamentos {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .acompanhamentos h3  {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 19px;
 

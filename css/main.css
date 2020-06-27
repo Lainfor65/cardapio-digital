@@ -36,23 +36,33 @@ color: #B71524;
     background-color: #000;
     width: 100%;
 }
-/* header {
-    margin: 0 auto;
-    text-align: center;
+ header {
+    width: 100vw;
+    background-color: #B71524;
+    position: fixed;
+    bottom: 0;
 }
 
-header nav {
-    max-width: 360px;
- 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+.header {
+    height: 80px;
+    width: 360px;
+    margin: auto;
     text-align: center;
-    background-color: #B71524;
+    padding: 10px 0;
 }
+
+
 
 header nav a {
-
-    padding: 0 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    display: block;
 }
- */
+
+header nav img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
