@@ -37,32 +37,39 @@ color: #B71524;
     width: 100%;
 }
  header {
-    width: 100vw;
+    width: 100%;
     background-color: #B71524;
     position: fixed;
     bottom: 0;
 }
 
 .header {
-    height: 80px;
+    height: 60px;
     width: 360px;
-    margin: auto;
+    margin:  0 auto;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 
-
-header nav a {
-    text-align: center;
+header nav ul li {
     color: #fff;
+
     font-size: 18px;
-    display: block;
 }
 
 header nav img {
     width: 50px;
     height: 50px;
-    margin: 0 auto;
+}
+
+.quebra {
+    margin-bottom: 120px;
 }
 
