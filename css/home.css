@@ -7,12 +7,10 @@
     margin-top: 30px;;
 }
 .home-main h1 {
-margin: 10px auto;
+margin: 0px auto;
 max-width: 150px;
 
-font-family: Yatra One;
-font-style: normal;
-font-weight: normal;
+font-family: "Yatra One";
 font-size: 40px;
 line-height: 45px;
 text-align: center;
@@ -20,9 +18,14 @@ text-align: center;
 color: #000000;
 }
 
+.home-main h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #666363;
+}
+
 .home-main p {
-font-style: normal;
-font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 /* identical to box height */

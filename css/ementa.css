@@ -1,20 +1,12 @@
 /* Entrada */
-.menu h2 {
-    display: inline;
-    padding-bottom: 8px;
-    
-}   
-.menu span {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
 
+.title h1 {
+    font-size: 20px;
     color: #B71524;
-
-    margin-left: 8px;
+    font-weight: bold;
+    text-align: center;
+    margin: 55px 0 15px 0;
 }
-
 .aviso {
     display: inline;
     font-style: normal;
@@ -32,7 +24,7 @@
 
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
     color: #333333;
 }
@@ -42,19 +34,10 @@
     max-width: 310px;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
 
     color: #000000;
-}
-
-.title_descri {
-    margin-top: 6px;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #333333;
 }
 
 .title_descri {
@@ -72,8 +55,8 @@
 
 .item {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
 }
 
 .item p {
@@ -86,6 +69,7 @@
 
 .descrition {
     padding-bottom: 20px;
+    max-width: 80%;
 }
 .descrition p {
     font-style: italic;
@@ -124,7 +108,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 20px;
 
     color: #000000;
 }

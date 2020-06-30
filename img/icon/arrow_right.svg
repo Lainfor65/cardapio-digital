@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="#000"/><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/></svg>
+<svg id="arrow_right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_1" data-name="Path 1" d="M0,0H24V24H0Z"/>
+  <path id="Path_2" data-name="Path 2" d="M16.01,11H4v2H16.01v3L20,12,16.01,8Z"/>
+</svg>
