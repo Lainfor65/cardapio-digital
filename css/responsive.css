@@ -1,3 +1,100 @@
-@media only screen and (max-width: 787px) {
+@media only screen and (min-width: 381px) and (max-width:768px) {
+    /* HOME */
+    .home-main h1 {
+        max-width: 120px;
+    }
+
+    /* Header */
+    header nav ul li {
+        color: #fff;
+        font-size:24px;
+    }
     
+    header nav img {
+        width: 30px;
+        height: 30px;
+    }
+}
+    
+
+/* SMARTPHONE */
+@media only screen and (max-width: 380px) {
+    /* MAIN */
+.home-main {
+    margin: 25px 0;
+    text-align: center;
+}
+.home-main img {
+    margin-top: 30px;;
+}
+
+.home-main h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #666363;
+}
+
+.home-main h1 {
+    margin: 0px auto;
+    max-width: 150px;
+
+    font-family: "Yatra One";
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.home-main ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B71524;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: .08em;
+    margin: 15px 0;
+}
+
+.home-main p {
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+margin: 35px 0 10px 0;
+
+color: #000000;
+}
+
+.home-main a {
+    font-size: 16px;
+    line-height: 19px;
+
+    display: block;
+    padding: 10px 20px;
+    margin: 5px auto;
+    max-width: 130px;
+
+    border: 1px solid #B71524;
+    border-radius: 6px;
+
+    color: #000;
+    transition: 300ms;
+}
+
+.home-main a:hover {
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration: underline #B71524;
+}
+
+.home-main nav a img {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+}
 }

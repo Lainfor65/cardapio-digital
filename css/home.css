@@ -1,39 +1,40 @@
-/* MAIN */
-
-.home-main, .home-footer {
+/* HOME */
+.home-main {
+    margin: 25px 0;
     text-align: center;
 }
 .home-main img {
-    margin-top: 30px;;
-}
-.home-main h1 {
-margin: 0px auto;
-max-width: 150px;
-
-font-family: "Yatra One";
-font-size: 40px;
-line-height: 45px;
-text-align: center;
-
-color: #000000;
+    width: 200px;
+    margin-top: 15px;;
 }
 
 .home-main h2 {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500px;
     color: #666363;
 }
 
-.home-main p {
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+.home-main h1 {
+    margin: 0px auto;
+    max-width: 150px;
 
-text-align: center;
-margin: 35px 0 10px 0;
+    font-family: "Yatra One";
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
+}
+
+.home-main ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B71524;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: .08em;
+    margin: 15px 0;
 }
 
 .home-main a {
@@ -59,18 +60,5 @@ color: #000000;
     text-decoration: underline #B71524;
 }
 
-main nav a span {
-    background-image: url("../img/icon/arrow_right.svg");
-    height: 24px;
-    width: 24px;
-}
 
-/* Footer */
-.home-footer p {
-    font-size: 14px;
-    margin: 30px 0;
-}
 
-.home-footer span {
-    font-weight: bold;
-}

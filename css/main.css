@@ -24,7 +24,7 @@ color: #B71524;
     width: 100%;
     background-color: #B71524;
     position: fixed;
-    bottom: 1px;
+    top: 0px;
 }
 
 .header {
@@ -32,7 +32,7 @@ color: #B71524;
     max-width: 380px;
     margin:  0 auto;
     text-align: center;
-    padding: 12px 0;
+    padding: 10px 0;
 }
 
 header nav ul {
@@ -78,55 +78,65 @@ header nav img {
     width: 100%;
 }
 
-.quebra {
-    margin-bottom: 90px;
+footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: #B71524;
+    padding: 10px 15px;
+    color: #fff;
+    
 }
- /*  */
- html, body {
-    width   :   100%;    
-    height  :   100%;
-    
-    margin  :   0;
-    padding :   0;
-    
-    display :   table;
-    
-    color   :   #FFF;
-    }
-    
-    #navigation {    
-        height: 128px;
-        display:    table-row;
-        background: #333;   
-        position: fixed;
-        right: 0;
-        left: 0;
-    }
-    
-    #content {  
-    display     :   table-row;  
-    background  :   #444;
-    }
-    
-    .scroller {
-    height      :   100%;
-    
-    overflow-x  :   auto;
-    overflow-y  :   hidden;        
-    }
-    
-    .columns {
-    width   : auto;
-    height  : 100%;
-    
-    padding : 0 20px;    
-    
-    -webkit-column-fill     : auto;
-    -webkit-column-width    : 300px;
-    -webkit-column-gap      : 40px;
-       -moz-column-fill     : auto;
-       -moz-column-width    : 300px;
-       -moz-column-gap      : 40px;
-    
-    text-align  :   justify;    
-    }
+
+footer p {
+    color: #fff;
+}
+
+footer span {
+    font-weight: bold;
+    letter-spacing: .07em;
+}
+
+footer a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+/* JAVASCRIPT */
+/* 5 Adicione o CSS Essencial abaixo */
+.no-js [data-slide] {
+    position: relative;
+  }
+  .no-js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+  .no-js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  
+  /* 6 CSS recomendado para a navegação */
+  .no-js [data-slide-nav] {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .no-js [data-slide-nav] > button {
+    display: inline-block;
+    width: 12px;
+    margin: 4px;
+    height: 12px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    background: #1d1d1d;
+    text-indent: -100px;
+    overflow: hidden;
+  }
+  .no-js [data-slide-nav] > button.active {
+    background: #fec454;
+  }
