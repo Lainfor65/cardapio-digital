@@ -8,21 +8,16 @@
     margin-top: 15px;;
 }
 
-.home-main h2 {
-    margin-top: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #666363;
-}
 
 .home-main h1 {
-    margin: 0px auto;
+    margin: 15px auto;
     max-width: 150px;
 
-    font-family: "Yatra One";
+    font-family: "Manti Sans";
     font-size: 40px;
     line-height: 45px;
     text-align: center;
+    font-weight: bold;
 
     color: #000000;
 }
@@ -34,7 +29,6 @@
     font-weight: bold;
     line-height: 35px;
     letter-spacing: .08em;
-    margin: 15px 0;
 }
 
 .home-main a {
@@ -56,7 +50,6 @@
 .home-main a:hover {
     font-size: 18px;
     line-height: 21px;
-
     text-decoration: underline #B71524;
 }
 
