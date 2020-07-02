@@ -21,74 +21,15 @@ color: #B71524;
 
 }
 
-/* Sub-Header */
-.sub-header {
-    background-color: #f1f1f1;
-    padding: 30px;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .sub-header h2 {
-    margin: 0 auto;
-    text-align: center;
-    max-width: 50px;
-  }
-  
-  #navbar {
-    overflow: hidden;
-    background-color: #333;
-    
-    margin: 0 auto;
-    padding: 15px;
-  }
-
-  #navbar ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  #navbar ul li {
-      text-align: center;
-      margin: 0 auto;
-  }
-  
-  #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  #navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
 /* Stylo Geral */
 .title h1 {
     font-size: 20px;
     color: #B71524;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 80px 0 20px 0;
     font-style: italic;
+
 }
 
 .title_descri {
@@ -187,15 +128,19 @@ header nav ul {
 }
 
 
-header nav ul li {
+header nav ul li a {
     color: #fff;
-    font-size:16px;
+    font-size: 14px;
 }
 
-header nav ul li.foco {
-    text-decoration: underline;
-    font-weight: bold;
+.foco:after{
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 3px;
+    margin: 0 auto;
 }
+
 header nav img {
     width: 25px;
     height: 25px;
