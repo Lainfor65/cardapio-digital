@@ -1,10 +1,6 @@
 /* HOME */
-.home-main {
-    margin: 25px 0;
-    text-align: center;
-}
 .home-main img {
-    width: 200px;
+    width: 113px;
     margin-top: 15px;;
 }
 
@@ -13,13 +9,13 @@
     margin: 15px auto;
     max-width: 150px;
 
-    font-family: "Manti Sans";
+    font-family: "Arial";
     font-size: 40px;
     line-height: 45px;
     text-align: center;
     font-weight: bold;
 
-    color: #000000;
+    color: #ffffff;
 }
 
 .home-main ul li {
@@ -40,7 +36,7 @@
     margin: 5px auto;
     max-width: 130px;
 
-    border: 1px solid #B71524;
+    border: 3px solid #B71524;
     border-radius: 6px;
 
     color: #000;
