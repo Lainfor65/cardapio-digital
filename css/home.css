@@ -1,8 +1,10 @@
 /* HOME */
 .img {
     padding-top: 14px;
-    background: url(../img/entrada.png);
-    height: 100vh;
+    background: url(../img/entrada.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
 }
 .home-main {
     margin: 0 auto;
@@ -34,6 +36,8 @@
 
 .home-main nav {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .home-main nav a {

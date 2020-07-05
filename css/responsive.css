@@ -30,12 +30,65 @@
         font-size: 14px;
         color: #333333;
     }
+
+    /* Fotter */
+    footer {
+        grid-template-columns: 10fr 2fr;
+        gap: 5px;
+    }
+
+    .dropbtn {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 0px; 
+    }
+
+
+    .dropdown-content a {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 2px;
+    }
 }
 @media only screen and (min-width: 511px) and (max-width:610px) {
     /* Stylo Geral */
     .title h1 {
         font-size: 25px;
     }
+    /* Footer */
+    footer {
+        grid-template-columns: 10fr 2fr;
+        gap: 5px;
+    }
+
+    .dropbtn {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 0px; 
+    }
+
+    .dropdown-content a {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 2px;
+    }
 }
 @media only screen and (max-width:510px) {
+    /* Footer */
+    footer {
+        grid-template-columns: 10fr 2fr;
+        gap: 5px;
+    }
+
+    .dropbtn {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 0px; 
+
+    }
+    .dropdown-content a {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 2px;
+    }
 }

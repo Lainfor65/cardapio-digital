@@ -192,7 +192,58 @@ footer a {
     text-decoration: underline;
 }
 
-/* JAVASCRIPT */
+  /* Dropdown Button */
+.dropbtn {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 0px; 
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #fff;
+    overflow: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: -12px;
+    top: -65px;
+    background-color: #c42424;
+    max-width:200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .bandeira {
+      width: 15px;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 2px;
+    color: #fff;
+    padding: 2px 12px;
+    margin: 5px 12px;
+    text-decoration: none;
+  }
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+
+  /* JAVASCRIPT */
 /* 5 Adicione o CSS Essencial abaixo */
 .no-js [data-slide] {
     position: relative;
@@ -230,48 +281,4 @@ footer a {
   .no-js [data-slide-nav] > button.active {
     background: #fec454;
   }
-
-  /* Dropdown Button */
-.dropbtn {
-    padding: 5px;
-    font-size: 12px;
-    border: 1px solid #fff;
-    overflow: none;
-    border-radius: 6px;
-    cursor: pointer;
-    background: none;
-    color: #fff;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    vertical-align: auto;
-    right: -10px;
-    top: -85px;
-    background-color: #c42424;
-    max-width: 160  px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .bandeira {
-      width: 15px;
-  }
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: #fff;
-    padding: 12px 8px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
   
