@@ -1,12 +1,13 @@
 /* HOME */
 .img {
     padding-top: 14px;
+    background: url(../img/entrada.png);
+    height: 100vh;
 }
-.home-main img {
-    width: 113px;
+.home-main {
+    margin: 0 auto;
     text-align: center;
 }
-
 
 .home-main h1 {
     margin: 15px auto;
@@ -31,8 +32,12 @@
     letter-spacing: .08em;
 }
 
-.home-main a {
-    font-size: 16px;
+.home-main nav {
+    text-align: center;
+}
+
+.home-main nav a {
+    font-size: 18px;
     line-height: 19px;
 
     display: block;
@@ -42,6 +47,7 @@
 
     border: 3px solid #fff;
     border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.637);
 
     color: #fff;
     transition: 300ms;
