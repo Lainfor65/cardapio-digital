@@ -20,34 +20,34 @@
 
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/grid.css">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/ementa.css">
-        <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>
-        <header>
-            <div class="header">
+        <header class="header">
+            <div class="container">
                 <nav>
-                    <ul>
+                    <ul class="grid-16">
                         <li>
-                            <a href="../pt/index.html" x="x"><img src="../img/icon/restaurant.svg" alt="icon garfos - carnes do convento"></a>
+                            <a class="foco" href="../pt/index.html" x="x"><img src="../img/icon/restaurant.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Ementa</p>
+                            </a>
                         </li>
+
                         <li>
-                            <a href="../pt/drinks.html"><img src="../img/icon/local_bar.svg" alt="icon taça - carnes do convento"></a>
+                            <a href="../pt/drinks.html" x="x"><img src="../img/icon/local_bar.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Bebida</p>
+                            </a>
                         </li>
+
                         <li>
-                            <a href="../pt/dessert.html"><img src="../img/icon/desert.svg" alt="icon garfos - carnes do convento"></a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="../pt/index.html" class="foco">Ementa</a>
-                        </li>
-                        <li>
-                            <a href="../pt/drinks.html">Bebidas</a>
-                        </li>
-                        <li>
-                            <a href="../pt/dessert.html">Sobremesas</a>
+                            <a href="../pt/dessert.html" x="x"><img src="../img/icon/desert.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Sobremesa</p>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -55,668 +55,852 @@
         </header>
 
         <section class="title">
-            <h1>Desfrute de toda nossa ementa.</h1>
+            <h1 class="titulo-main topo">Desfrute de toda nossa ementa.</h1>
+        </section>
+
+        <!-- Inicio Entrada -->
+        <section class="menu entrada">
+            <div class="container">
+                <h2 class="titulo" id="entrada">Entrada</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">Pão</li>
+                        <li class="price">1,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Manteiga</li>
+                        <li class="price">0,70€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Queijo Amanteigado</li>
+                        <li class="price">3,75€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Patê</li>
+                        <li class="price">0,90€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Azeitonas</li>
+                        <li class="price">1,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Painho Alentejano de Porco Preto</li>
+                        <li class="price">4,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Sopa do Dia</li>
+                        <li class="price">2,20€</li>
+                    </ul>
+                </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">Presunto Porco Duroc Reserva</li>
+                        <li class="price">4,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Presunto Bellota
+                            <span class="description">100% Ibérico 5J100$ 5J (unidade de 70grs)</span>
+                        </li>
+                        <li class="price">25,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Alheira
+                            <span class="description">Caça / Vegetariana / Tradicional</span>
+                        </li>
+                        <li class="price">4,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Salsicha Brasileira</li>
+                        <li class="price">1,75€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Camarão Frito ao Alho</li>
+                        <li class="price">9,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">Carabineiro Grelhado</li>
+                        <li class="price">90,00€/kg</li>
+                    </ul>
+                </div>
+                <!-- Fim Itens -->
+            </div>
         </section>
         <!-- Inicio Entrada -->
-        <section class="menu">
-            <h2 class="titulo" id="entrada">Entrada</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item">
-                    <p>Pão</p>
-                    <span>1,50€</span>
-                </div>
 
-                <div class="item">
-                    <p>Manteiga</p>
-                    <span>0,70€</span>
-                </div>
+        <!-- Inicio Cortes Premiun -->
+        <section class="menu premium">
+            <div class="container">
+                <h1 class="titulo-main">Sugestão</h1>
+                <h2>Cortes Premium</h2>
+                <h3 class="subtitulo">Grelhdas no carvão</h3>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Posta de Entrecôte
+                            <span class="description">América do Sul (+/- 300 grs)</span>
+                        </li>
+                        <li class="price">16€/un</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Queijo Amanteigado</p>
-                    <span>3,75€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Posta de Fraldinha
+                            <span class="description">Black Angus (+/- 300 grs)</span>
+                        </li>
+                        <li class="price">19€/un</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Patê</p>
-                    <span>0,90€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Lombo Galego
+                            <span class="description">Com 7 dias de maturação (+/- 300 grs)</span>
+                        </li>
+                        <li class="price">1,50€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Azeitonas</p>
-                    <span>1,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Tomahawk
+                            <span class="description">Com 15 dias de maturação (+/- 1Kg)</span>
+                        </li>
+                        <li class="price">9€/un</li>
+                    </ul>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Tomahawk de Rubia Galega
+                            <span class="description">Com 40 dias de maturação (+/- 1Kg)</span>
+                        </li>
+                        <li class="price">50€/kg</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Painho Alentejano de Porco Preto</p>
-                    <span>4,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Chuleton
+                            <span class="description">De vaca Rubia Galega com 45 dias de maturação peça com +/- 850grs</span>
+                        </li>
+                        <li class="price">48€/kg</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Presunto Porco Duroc Reserva</p>
-                    <span>4,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Vazia de Vaca Rubia Galega
+                            <span class="description">Com 60 dias de maturação</span>
+                        </li>
+                        <li class="price">65€/kg</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Presunto Bellota</p>
-                    <span>25,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Vazia de Wagyu AA 3-5
+                            <span class="description">10,00€/100 grs</span>
+                        </li>
+                        <li class="price">10€</li>
+                    </ul>
                 </div>
-                <div class="descrition">
-                    <p>100% Ibérico 5J100$ 5J (unidade de 70grs)</p>
-                </div>
+                <!-- Fim Itens -->
 
-                <div class="item">
-                    <p>Alheira</p>
-                    <span>4,00€</span>
+                <div class="grid-16 acompanhamentos">
+                    <h3>Acompanhamentos</h3>
+                    <p>Arroz, Batatas Fritas, Feijão Preto, Farofa e Vinagrete</p>
                 </div>
-
-                <div class="item">
-                    <p>Salsicha Brasileira</p>
-                    <span>1,75€</span>
-                </div>
-
-                <div class="item">
-                    <p>Camarão Frito ao Alho</p>
-                    <span>9,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Carabineiro Grelhado</p>
-                    <span>90,00€/kg</span>
-                </div>
-
-                <div class="item">
-                    <p>Sopa do Dia</p>
-                    <span>2,20€</span>
-                </div>
+                <!-- fim Acompanhamentos -->
             </div>
-        </section>
-        <!-- Fim Entrada -->
-
-        <!-- Inicio Cortes Premium -->
-        <section class="menu">
-            <h2 class="titulo" id="cortes-premium">Cortes Premium
-            </h2>
-            <span class="subtitle">Grelhdas no carvão</span>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item desc">
-                    <p>Posta de Entrecôte</p>
-                    <span>16€/un</span>
-                </div>
-                <div class="descrition">
-                    <p>+/- 300 grs</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Posta de Fraldinha</p>
-                    <span>18€/un</span>
-                </div>
-                <div class="descrition">
-                    <p>+/- 300 grs</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Lombo Galego</p>
-                    <span>19€/un</span>
-                </div>
-                <div class="descrition">
-                    <p>Com 7 dias de maturação (+/- 300 grs)</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Tomahawk</p>
-                    <span>39€/un</span>
-                </div>
-                <div class="descrition">
-                    <p>Com 15 dias de maturação (+/- 1Kg)</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Tomahawk de Rubia Galega</p>
-                    <span>50€/kg</span>
-                </div>
-                <div class="descrition">
-                    <p>Com 40 dias de maturação (+/- 1 Kg)</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Chuleton</p>
-                    <span>48€/kg</span>
-                </div>
-                <div class="descrition">
-                    <p>De vaca Rubia Galega com 45 dias de maturação peça com +/- 850grs</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Vazia de Vaca Rubia Galega</p>
-                    <span>64€/kg</span>
-                </div>
-                <div class="descrition">
-                    <p>Com 60 dias de maturação</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Vazia de Wagyu AA 3-5</p>
-                    <span>10€</span>
-                </div>
-                <div class="descrition">
-                    <p>10,00€/100 grs</p>
-                </div>
-            </div>
-            <!-- Acompanhamentos -->
-            <div class="acompanhamentos">
-                <h3>Acompanhamentos</h3>
-                <p>Arroz, Batatas Fritas, Feijão Preto, Farofa e Vinagrete</p>
-            </div>
-            <!-- fim Acompanhamentos -->
         </section>
         <!-- Fim Cortes Premium -->
 
-        <!-- Inicio carnes -->
-        <section class="menu">
-            <h2 class="titulo" id="carnes">Carnes</h2>
-            <span class="subtitle">Grelhdas no carvão</span>
-            <div class="barra"></div>
-            <p class="title_descri">(1 pessoa +/- 250 grs )</p>
-            <div class="itens">
-                <div class="item">
-                    <p>Bife de Frango</p>
-                    <span>10,00€</span>
-                </div>
+        <!-- Inicio Carnes -->
+        <section class="menu carnes">
+            <div class="container">
+                <h2>Carnes</h2>
+                <h3 class="subtitulo">Grelhadas no carvão</h3>
+                <div class="barra"></div>
+                <h4 class="desc">(1 pessoa +/- 250 grs )</h4>
 
-                <div class="item">
-                    <p>Bitoque de Vaca</p>
-                    <span>11,00€</span>
-                </div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Bife de Frango
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Bifinhos de Vitela c/ Natas Cogumelos</p>
-                    <span>13,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Posta de Bitoque de Vaca
+                        </li>
+                        <li class="price">11,00€</li>
+                    </ul>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Bifinhos de Vitela c/ Natas Cogumelos
+                        </li>
+                        <li class="price">13,00€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Entrecôte c/ Camarão</p>
-                    <span>17,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Entrecôte c/ Camarão
+                            <span class="description">e molho de maracujá. +/- 300 grs</span>
+                        </li>
+                        <li class="price">17,00€</li>
+                    </ul>
                 </div>
+                <!-- Fim Itens -->
 
-                <div class="descrition">
-                    <p>e molho de maracujá. +/- 300 grs</p>
-                </div>
-
-                <!-- Acompanhamentos -->
-                <div class="acompanhamentos">
+                <div class="grid-16 acompanhamentos">
                     <h3>Acompanhamentos</h3>
                     <p>Arroz, Batatas Fritas e Salada</p>
                 </div>
                 <!-- fim Acompanhamentos -->
-                <div class="item">
-                    <p>Bifinhos de Javali</p>
-                    <span>14,50€</span>
+
+                <!-- Itens 3ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Bifinhos de Javali
+                        </li>
+                        <li class="price">14,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Bifinhos de Veado
+                        </li>
+                        <li class="price">14,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Bifinhos de Canguru
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Posta Mirandesa
+                            <span class="description">+/- 300 grs</span>
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Bife da Vazia
+                        </li>
+                        <li class="price">13,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Bife do Lombo
+                            <span class="description">+/- 300 grs</span>
+                        </li>
+                        <li class="price">17,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombinhos de Porco Preto
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Cachaço de Porco Preto
+                        </li>
+                        <li class="price">11,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Secretos de Porco Preto
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
                 </div>
 
-                <div class="item">
-                    <p>Bifinhos de Veado</p>
-                    <span>14,50€</span>
-                </div>
+                <!-- Itens 4ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Plumas de Porco Preto
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Bifinhos de Canguru</p>
-                    <span>15,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Mista de Porco Preto
+                        </li>
+                        <li class="price">14,00€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Posta Mirandesa</p>
-                    <span>15,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Lombo do Brasil (Filet Mignon)
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
 
-                <div class="descrition">
-                    <p>+/- 300 grs</p>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Picanha (América do Sul)
+                        </li>
+                        <li class="price">14,50€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Bife da Vazia</p>
-                    <span>13,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Maminha (América do Sul)
+                        </li>
+                        <li class="price">13,00€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Bife do Lombo</p>
-                    <span>16,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>+/- 300 grs</p>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Mista Picanha, Maminha e Porco Preto
+                        </li>
+                        <li class="price">13,50€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Lombinhos de Porco Preto</p>
-                    <span>15,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Churrasco Brasileiro 1x
+                            <span class="description">Espeto de 1 Picanha, 1 Maminha e 1 Salsicha Brasileira</span>
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Cachaço de Porco Preto</p>
-                    <span>11,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Churrasco Brasileiro 2x
+                            <span class="description">Espeto de 2 Picanha, 2 Maminha e 2 Salsicha Brasileira</span>
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
                 </div>
-
-                <div class="item">
-                    <p>Secretos de Porco Preto</p>
-                    <span>11,00€</span>
+                <div class="grid-16 acompanhamentos">
+                    <h3>Acompanhamentos</h3>
+                    <p>Arroz, Batatas Fritas, Feijão Preto, Farofa e Vinagrete</p>
                 </div>
-
-                <div class="item">
-                    <p>Plumas de Porco Preto</p>
-                    <span>15,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Mista de Porco Preto</p>
-                    <span>14,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombo do Brasil (Filet Mignon)</p>
-                    <span>15,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Picanha (América do Sul)</p>
-                    <span>14,50€</span>
-                </div>
-
-                <div class="item">
-                    <p>Maminha (América do Sul)</p>
-                    <span>13,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Mista Picanha, Maminha e Porco Preto</p>
-                    <span>13,50€</span>
-                </div>
-
-                <div class="item desc">
-                    <p>Churrasco Brasileiro 1x</p>
-                    <span>16,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>Espeto de 1 Picanha, 1 Maminha e 1 Salsicha Brasileira</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Churrasco Brasileiro 2x</p>
-                    <span>30,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>Espeto de 2 Picanha, 2 Maminha e 2 Salsicha Brasileira</p>
-                </div>
+                <!-- fim Acompanhamentos -->
             </div>
-            <!-- Acompanhamentos -->
-            <div class="acompanhamentos">
-                <h3>Acompanhamentos</h3>
-                <p>Arroz, Batatas Fritas, Feijão Preto, Farofa e Vinagrete</p>
-            </div>
-            <!-- fim Acompanhamentos -->
         </section>
-        <!-- Fim carnes -->
+        <!-- Fim Carnes -->
 
         <!-- Inicio Pedra -->
-        <section class="menu">
-            <h2 class="titulo" id="pedra">Pedra</h2>
-            <p class="aviso">(Só disponivel na Esplanada)</p>
-            <div class="barra"></div>
-            <p class="title_descri">(2 pessoa +/- 500 grs )</p>
-            <div class="itens">
-                <div class="item">
-                    <p>Veado</p>
-                    <span>31,00€</span>
+        <section class="menu pedra">
+            <div class="container">
+                <h2>Pedra</h2>
+                <h3 class="aviso">(Só disponivel na Esplanada)</h3>
+                <div class="barra"></div>
+                <h4 class="desc">(2 pessoa +/- 500 grs)</h4>
+
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Veado
+                        </li>
+                        <li class="price">31,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Javali
+                        </li>
+                        <li class="price">31,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Canguru
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Vitela (Alcatra)
+                        </li>
+                        <li class="price">29,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombo do Brasil (Filet Mignon)
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
                 </div>
 
-                <div class="item">
-                    <p>Javali</p>
-                    <span>31,00€</span>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Mista de Javali e Veado
+                        </li>
+                        <li class="price">31,00€</li>
+                    </ul>
+                    <ul class="item">
+                        <li class="name">
+                            Mista de Vitela e Lombo do Brasil
+                        </li>
+                        <li class="price">31,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombinho de Porco Preto
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Entrecôte, Fraldinha, Picanha, Plumas ou Maminha
+                        </li>
+                        <li class="price">34,00€</li>
+                    </ul>
+
                 </div>
 
-                <div class="item">
-                    <p>Canguru</p>
-                    <span>32,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Vitela (Alcatra)</p>
-                    <span>29,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombo do Brasil (Filet Mignon)</p>
-                    <span>32,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Mista de Vitela e Lombo do Brasil</p>
-                    <span>31,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombinho de Porco Preto</p>
-                    <span>32,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Entrecôte, Fraldinha, Picanha, Plumas ou Maminha</p>
-                    <span>34,00€</span>
-                </div>
-
-                <!-- Acompanhamentos -->
-                <div class="acompanhamentos">
+                <!-- Inicio Acompanhamentos -->
+                <div class="grid-16 acompanhamentos">
                     <h3>Acompanhamentos</h3>
                     <p>Arroz, Batatas Fritas, Frutas e Molhos</p>
                 </div>
                 <!-- fim Acompanhamentos -->
+
             </div>
         </section>
         <!-- Fim Pedra -->
 
         <!-- Inicio Espetada -->
-        <section class="menu">
-            <h2 class="titulo" id="espetada">Espetada</h2>
-            <span class="subtitle">Grelhdas no carvão</span>
-            <div class="barra"></div>
-            <p class="title_descri">(Intercalados com cebola, bacon e pimeto)</p>
-            <div class="itens">
-                <div class="item">
-                    <p>Veado</p>
-                    <span>16,00€</span>
+        <section class="menu espetada">
+            <div class="container">
+                <h2>Espetada</h2>
+                <div class="barra"></div>
+                <h4 class="desc">(Intercalado com Bacon, Cebola e pimento)</h4>
+
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Veado
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Javali
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Mista de Javali e Veado
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Porco Preto
+                        </li>
+                        <li class="price">14,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Canguru
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
                 </div>
 
-                <div class="item">
-                    <p>Javali</p>
-                    <span>16,00€</span>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Lombo do Brasil (Filet Mignon)
+                        </li>
+                        <li class="price">17,00€</li>
+                    </ul>
+                    <ul class="item">
+                        <li class="name">
+                            Mista de Vitela e Lombo do Brasil
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Vitela (Alcatra)
+                        </li>
+                        <li class="price">13,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombo do Brasil Enrolado em Bacon
+                        </li>
+                        <li class="price">18,00€</li>
+                    </ul>
+
                 </div>
 
-                <div class="item">
-                    <p>Mista de Javali e Veado</p>
-                    <span>16,00€</span>
+                <!-- Inicio Acompanhamentos -->
+                <div class="grid-16 acompanhamentos">
+                    <h3>Acompanhamentos</h3>
+                    <p>Arroz, Batatas Fritas, Feijão Preto, Farofa e Vinagrete</p>
                 </div>
+                <!-- fim Acompanhamentos -->
 
-                <div class="item">
-                    <p>Porco Preto</p>
-                    <span>14,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Canguru</p>
-                    <span>16,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombo do Brasil (Filet Mignon)</p>
-                    <span>17,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Mista Porco Preto e Lombo Brasil</p>
-                    <span>15,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Vitela (Alcatra)</p>
-                    <span>13,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombo do Brasil Enrolado em Bacon</p>
-                    <span>18,00€</span>
-                </div>
             </div>
-            <!-- Acompanhamentos -->
-            <div class="acompanhamentos">
-                <h3>Acompanhamentos</h3>
-                <p>Arroz, Batatas Fritas, Feijão Preto, Farofa e Vinagrete</p>
-            </div>
-            <!-- fim Acompanhamentos -->
         </section>
-        <!-- Fim Espetadas -->
+        <!-- Fim Espetada -->
 
         <!-- Inicio Fundeo -->
-        <section class="menu">
-            <h2 class="titulo" id="fundue">Fundue</h2>
-            <span class="subtitle">em Vinho Tinto</span>
-            <div class="barra"></div>
-            <p class="title_descri">(2 pessoas +/- 500 grs)</p>
-            <div class="itens">
-                <div class="item">
-                    <p>Veado</p>
-                    <span>32,00€</span>
+        <section class="menu fundeo">
+            <div class="container">
+                <h2>Fundeo</h2>
+                <h3 class="subtitulo">em Vinho Tinto</h3>
+                <div class="barra"></div>
+                <h4 class="desc">(2 pessoa +/- 500 grs)</h4>
+
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Veado
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Javali
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Mista de Javali e Veado
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Canguru
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+                </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Vitela (Alcatra)
+                        </li>
+                        <li class="price">29,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombo do Brasil (Filet Mignon)
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+                    <ul class="item">
+                        <li class="name">
+                            Mista Porco Preto e Lombo Brasil
+                        </li>
+                        <li class="price">31,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombinho de Porco Preto
+                        </li>
+                        <li class="price">32,00€</li>
+                    </ul>
+
                 </div>
 
-                <div class="item">
-                    <p>Javali</p>
-                    <span>32,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Mista de Javali e Veado</p>
-                    <span>32,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Canguru</p>
-                    <span>32,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Vitela (Alcatra)</p>
-                    <span>29,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombo do Brasil (Filet Mignon)</p>
-                    <span>32,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Mista Porco Preto e Lombo Brasil</p>
-                    <span>31,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombinho de Porco Preto</p>
-                    <span>32,00€</span>
-                </div>
-
-                <!-- Acompanhamentos -->
-                <div class="acompanhamentos">
+                <!-- Inicio Acompanhamentos -->
+                <div class="grid-16 acompanhamentos">
                     <h3>Acompanhamentos</h3>
                     <p>Arroz, Batatas Fritas, Frutas e Molhos</p>
                 </div>
                 <!-- fim Acompanhamentos -->
+
             </div>
         </section>
         <!-- Fim Fundeo -->
 
-        <!-- Inicio Peixe -->
-        <section class="menu">
-            <h2 class="titulo" id="peixe">Peixe</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item">
-                    <p>Posta de Bacalhau com Grão</p>
-                    <span>12,00€</span>
+        <!-- Inicio peixe -->
+        <section class="menu peixe">
+            <div class="container">
+                <h2>Peixe</h2>
+                <div class="barra"></div>
+
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Posta de Bacalhau com Grão
+                        </li>
+                        <li class="price">12,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Posta de Bacalhau Braseada
+                            <span class="description">Coberta com Camarão ao Alho</span>
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
                 </div>
 
-                <div class="item desc">
-                    <p>Posta de Bacalhau Braseada</p>
-                    <span>16,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>Coberta com Camarão ao Alho</p>
-                </div>
-
-                <div class="item">
-                    <p>Lombo de Salmão Braseado</p>
-                    <span>16,00€</span>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Lombo de Salmão Braseado
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
                 </div>
 
-                <!-- Acompanhamentos -->
-                <div class="acompanhamentos">
+                <!-- Inicio Acompanhamentos -->
+                <div class="grid-16 acompanhamentos">
                     <h3>Acompanhamentos</h3>
-                    <p>Legumes e Salada</p>
+                    <p>Arroz, Batatas Fritas, Frutas e Molhos</p>
                 </div>
                 <!-- fim Acompanhamentos -->
-                <div>
-                    <p class="mensagem">(tempo de confeção elevado 35-45 minutos)</p>
-                </div>
+
             </div>
         </section>
-        <!-- Fim Peixe -->
+        <!-- Fim peixe -->
 
-        <!-- Inicio Hamburger -->
-        <section class="menu">
-            <h2 class="titulo" id="hamburguer">Hambúrgueres Gourmet</h2>
-            <span class="subtitle">no Prato</span>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item">
-                    <p>Picanha</p>
-                    <span>11,00€</span>
+        <!-- Inicio Hambuger -->
+        <section class="menu hamburger">
+            <div class="container">
+                <h2>Hambúrgueres Gourmet</h2>
+                <h3 class="subtitulo">no Prato</h3>
+                <div class="barra"></div>
+
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Picanha
+                        </li>
+                        <li class="price">11,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Maminha
+                        </li>
+                        <li class="price">11,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Veado
+                        </li>
+                        <li class="price">12,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Javali
+                        </li>
+                        <li class="price">12,00€</li>
+                    </ul>
+                </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Frango
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombinho de Porco Preto
+                        </li>
+                        <li class="price">12,00€</li>
+                    </ul>
+                    <ul class="item">
+                        <li class="name">
+                            Plumas de Porco Preto
+                        </li>
+                        <li class="price">11,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lombo do Brasil (Filet Mignon)
+                        </li>
+                        <li class="price">13,00€</li>
+                    </ul>
                 </div>
 
-                <div class="item">
-                    <p>Maminha</p>
-                    <span>11,00€</span>
+                <div class="mensagem">
+                    <p class="grid-16 mensagem1">(tempo de confeção elevado 35-45 minutos)</p>
                 </div>
 
-                <div class="item">
-                    <p>Veado</p>
-                    <span>12,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Javali</p>
-                    <span>12,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Frango</p>
-                    <span>10,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombinho de Porco Preto</p>
-                    <span>12,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Plumas de Porco Preto</p>
-                    <span>11,00€</span>
-                </div>
-
-                <div class="item">
-                    <p>Lombo do Brasil (Filet Mignon)</p>
-                    <span>13,00€</span>
-                </div>
-
-                <div>
-                    <p class="mensagem">(tempo de confeção elevado 35-45 minutos)</p>
-                </div>
-                <div>
-                    <p class="mensagem2">Hambúrgueres grelhados no carvão, temperados apenas com sal marinho. Possibilidade de combinar 2 tipos de carne num só Hambúrguer. Combina com 2 acompanhamentos à escolha (exceto prato de frutas completo) e um molho.</p>
-                </div>
             </div>
         </section>
-        <!-- Fim Hamburger -->
+        <!-- Fim hamburger -->
 
-        <section class="menu">
-            <h2 class="titulo" id="extra">Acompanhamentos Extra</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item">
-                    <p>Batatas Fritas</p>
-                    <span>2,00€</span>
+        <!-- Inicio acompanhamento extra -->
+        <section class="menu extra">
+            <div class="container">
+                <h2>Acompanhamentos Extra</h2>
+                <div class="barra"></div>
+
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Batatas Fritas
+                        </li>
+                        <li class="price">2,20€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Arroz
+                        </li>
+                        <li class="price">1,75€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Feijão Preto
+                        </li>
+                        <li class="price">2,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Salada
+                            <span class="description">(Alface, Rúcula e Tomate)</span>
+                        </li>
+                        <li class="price">2,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Prato de Frutas – Simple
+                            <span class="description">(Abacaxi, Kiwi e Laranja)</span>
+                        </li>
+                        <li class="price">2,00€</li>
+                    </ul>
+                </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Prato de Frutas – Completo
+                            <span class="description">(Abacaxi, Kiwi, Laranja, Pêssego e Banana)</span>
+                        </li>
+                        <li class="price">3,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Prato de Legumes
+                            <span class="description">(Cenoura, Couve Bruxelas, Feijão Verde e Brócolos)</span>
+                        </li>
+                        <li class="price">3,00€</li>
+
+                    </ul>
+                    <ul class="item">
+                        <li class="name">
+                            Ovo Estrelado
+                        </li>
+                        <li class="price">1,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Molho de Natas com
+                            <span class="description">Cogumelos, Mostarda, Salsa ou Pimenta</span>
+                        </li>
+                        <li class="price">3,00€</li>
+                    </ul>
                 </div>
 
-                <div class="item">
-                    <p>Arroz</p>
-                    <span>1,75€</span>
-                </div>
-
-                <div class="item">
-                    <p>Feijão Preto</p>
-                    <span>2,00€</span>
-                </div>
-
-                <div class="item desc">
-                    <p>Salada</p>
-                    <span>2,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>(Alface, Rúcula e Tomate)</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Prato de Frutas – Simple</p>
-                    <span>2,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>(Abacaxi, Kiwi e Laranja)</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Prato de Frutas – Completo</p>
-                    <span>4,50€</span>
-                </div>
-                <div class="descrition">
-                    <p>(Abacaxi, Kiwi, Laranja, Pêssego e Banana)</p>
-                </div>
-
-                <div class="item desc">
-                    <p>Prato de Legumes</p>
-                    <span>3,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>(Cenoura, Couve Bruxelas, Feijão Verde e Brócolos)</p>
-                </div>
-
-                <div class="item">
-                    <p>Ovo Estrelado</p>
-                    <span>1,00€</span>
-                </div>
-
-                <div class="item desc">
-                    <p>Molho de Natas com</p>
-                    <span>3,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>Cogumelos, Mostarda, Salsa ou Pimenta</p>
-                </div>
             </div>
         </section>
-        <!-- Fim Peixe -->
+        <!-- Fim acompanhamento extra -->
 
-        <footer class="home-footer">
-            <div>
-                <p>
-                    <span>Carnes do Convento</span>
-                    © 2020 - Todos os direitos reservado | By
-                    <a href="https://www.wanderson-oliveira.com" target="_blank">
-                        Wanderson O.</a>
-                </p>
-            </div>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    <img src="../img/icon/portugal.svg" alt="bandeir portugal" class="bandeira">
-                    PT
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="../es/index.html">
-                        <img class="bandeira" src="../img/icon/united-kingdom.svg" alt="bandeira inglaterra">
-                        <span>English</span>
-                    </a>
-                    <a href="../fr/index.html">
-                        <img class="bandeira" src="../img/icon/france.svg" alt="bandeira frança">
-                        <span>Français</span>
-                    </a>
+        <footer>
+            <div class="footer-home">
+                <div class="container">
+                    <div class="grid-14 footer-p">
+                        <p>Carnes do Convento &copy 2020 - Todos os direitos reservado</p>
+                    </div>
+                    <div class="grid-2">
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <img src="../img/icon/portugal.svg" alt="bandeir portugal" class="bandeira">
+                                PT
+                            </button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="../es/index.html">
+                                    <img class="bandeira" src="../img/icon/united-kingdom.svg" alt="bandeira inglaterra">
+                                    <span>English</span>
+                                </a>
+                                <a href="../fr/index.html">
+                                    <img class="bandeira" src="../img/icon/france.svg" alt="bandeira frança">
+                                    <span>Français</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
+
         <script src="../js/script.js"></script>
     </body>
 </html>

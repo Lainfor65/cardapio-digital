@@ -19,10 +19,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/home.css">
-        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="css/main.css">
+
         <script>
             document
                 .documentElement
@@ -31,27 +31,35 @@
         </script>
     </head>
     <body>
-        <div class="img">
-            <main class="home-main">
+
+        <div class="header-home">
+            <div class="container">
                 <img src="img/logo-home.svg" alt="Logo - Carnes do Convento">
-                <h1>Carnes do Convento</h1>
-                <ul data-slide="welcome">
+                <h1 class="grid-16">
+                    <h1>Carnes do Convento</h1>
+                </h1>
+                <ul class="grid-16" data-slide="welcome">
                     <li>Escolha seu idioma</li>
                     <li>Choose your language</li>
                     <li>Choisissez votre langue</li>
                 </ul>
 
-                <nav>
+                <nav class="grid-16">
                     <a href="pt/index.html">Português</a>
                     <a href="es/index.html">English</a>
                     <a href="fr/index.html">Français</a>
                 </nav>
-            </main>
+            </div>
         </div>
-        <footer class="home-footer">
-            <p>
-                <span>Carnes do Convento</span>
-                &copy 2020 - Todos os direitos reservado</p>
+
+        <footer>
+            <div class="footer-home">
+                <div class="container">
+                    <div class="grid-16 footer-p">
+                        <p>Carnes do Convento &copy 2020 - Todos os direitos reservado</p>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <script src="js/simple-slide.js"></script>

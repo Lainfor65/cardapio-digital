@@ -20,34 +20,34 @@
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/grid.css">
         <link rel="stylesheet" href="../css/ementa.css">
-        <link rel="stylesheet" href="../css/responsive.css">
 
     </head>
     <body>
-        <header>
-            <div class="header">
+        <header class="header">
+            <div class="container">
                 <nav>
-                    <ul>
+                    <ul class="grid-16">
                         <li>
-                            <a href="../pt/index.html"><img src="../img/icon/restaurant.svg" alt="icon garfos - carnes do convento"></a>
+                            <a href="../pt/index.html" x="x"><img src="../img/icon/restaurant.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Ementa</p>
+                            </a>
                         </li>
+
                         <li>
-                            <a href="../pt/drinks.html"><img src="../img/icon/local_bar.svg" alt="icon taça - carnes do convento"></a>
+                            <a href="../pt/drinks.html" x="x"><img src="../img/icon/local_bar.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Bebida</p>
+                            </a>
                         </li>
+
                         <li>
-                            <a href="../pt/dessert.html"><img src="../img/icon/desert.svg" alt="icon garfos - carnes do convento"></a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="../pt/index.html">Ementa</a>
-                        </li>
-                        <li>
-                            <a href="../pt/drinks.html">Bebidas</a>
-                        </li>
-                        <li>
-                            <a href="../pt/dessert.html" class="foco">Sobremesas</a>
+                            <a class="foco" href="../pt/dessert.html" x="x"><img src="../img/icon/desert.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Sobremesa</p>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -55,144 +55,161 @@
         </header>
 
         <section class="title">
-            <h1>Para Terminar.</h1>
+            <h1 class="titulo-main topo">Para Terminar.</h1>
         </section>
 
-        <!-- Doces -->
-        <section class="menu">
-            <h2 class="titulo">Doces</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Doce da Casa</p>
-                    <span>3,30€</span>
-                </div>
+        <!-- Inicio Doces -->
+        <section class="menu doces">
+            <div class="container">
+                <h2 class="titulo">Doces</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">Doce da Casa</li>
+                        <li class="price">3,30€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Mousse de Chocolate</p>
-                    <span>3,30€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Mousse de Chocolate</li>
+                        <li class="price">3,30€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Mousse de Maracujá</p>
-                    <span>3,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Mousse de Maracujá</li>
+                        <li class="price">3,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Torta de Laranja de Setúbal</p>
-                    <span>3,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Torta de Laranja de Setúbal</li>
+                        <li class="price">3,90€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Petit Gateau com Gelado</p>
-                    <span>3,90€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Petit Gateau com Gelado</li>
+                        <li class="price">3,90€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Doce da Lata</p>
-                    <span>4,00€</span>
                 </div>
-                <div class="descrition">
-                    <p>Alfarroba, Lemon Curd e Suspiro</p>
-                </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
 
-                <div class="item desc">
-                    <p>Cheesecake</p>
-                    <span>4,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>Sabores Diversos</p>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Doce da Lata
+                            <span class="description">Alfarroba, Lemon Curd e Suspiro</span>
+                        </li>
+                        <li class="price">4,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Tarte de lima no Pote</p>
-                    <span>3,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Cheesecake
+                            <span class="description">Sabores Diversos</span>
+                        </li>
+                    </li>
+                    <li class="price">4,00€</li>
+                </ul>
 
-                <div class="item ">
-                    <p>Pavlova de Laranja</p>
-                    <span>4,00€</span>
-                </div>
+                <ul class="item">
+                    <li class="name">Tarte de lima no Pote</li>
+                    <li class="price">3,50€</li>
+                </ul>
 
-                <div class="item desc">
-                    <p>Häagen-Dazs 95ml</p>
-                    <span>3,80€</span>
-                </div>
-                <div class="descrition">
-                    <p>Sabores Diversos</p>
-                </div>
+                <ul class="item">
+                    <li class="name">Pavlova de Laranja</li>
+                    <li class="price">4,00€</li>
+                </ul>
 
+                <ul class="item">
+                    <li class="name">
+                        Häagen-Dazs 95ml
+                        <span class="description">Sabores diversos</span>
+                    </li>
+                    <li class="price">3,80€</li>
+                </ul>
             </div>
+            <!-- Fim Itens -->
         </section>
-        <!-- Doces -->
 
-        <!-- Frutas -->
-        <section class="menu">
-            <h2 class="titulo">Frutas</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Banana</p>
-                    <span>1,50€</span>
-                </div>
+        <!-- Inicio Frutas -->
+        <section class="menu frutas">
+            <div class="container">
+                <h2 class="titulo">Frutas</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">Banana</li>
+                        <li class="price">1,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Kiwi</p>
-                    <span>1,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Kiwi</li>
+                        <li class="price">1,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Laranja</p>
-                    <span>1,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Laranja</li>
+                        <li class="price">1,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Morangos</p>
-                    <span>2,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Morangos</li>
+                        <li class="price">2,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Manga</p>
-                    <span>3,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Manga
+                        </li>
+                        <li class="price">3,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Abacaxi</p>
-                    <span>3,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Abacaxi
+                        </li>
+                    </li>
+                    <li class="price">3,50€</li>
+                </ul>
 
-                <div class="item">
-                    <p>Salada de Frutas</p>
-                    <span>3,50€</span>
-                </div>
+                <ul class="item">
+                    <li class="name">Salada de Frutas</li>
+                    <li class="price">3,50€</li>
+                </ul>
 
             </div>
+            <!-- Fim Itens -->
         </section>
-        <!-- Frutas -->
 
-        <footer class="home-footer">
-            <div>
-                <p>
-                    <span>Carnes do Convento</span>
-                    © 2020 - Todos os direitos reservado | By
-                    <a href="https://www.wanderson-oliveira.com" target="_blank">
-                        Wanderson O.</a>
-                </p>
-            </div>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    <img src="../img/icon/portugal.svg" alt="" class="bandeira">
-                    PT
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#">
-                        <img class="bandeira" src="../img/icon/united-kingdom.svg" alt="">
-                        English
-                    </a>
-                    <a href="#">
-                        <img class="bandeira" src="../img/icon/france.svg" alt="">
-                        Français
-                    </a>
+        <footer>
+            <div class="footer-home">
+                <div class="container">
+                    <div class="grid-14 footer-p">
+                        <p>Carnes do Convento &copy 2020 - Todos os direitos reservado</p>
+                    </div>
+                    <div class="grid-2">
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <img src="../img/icon/portugal.svg" alt="bandeir portugal" class="bandeira">
+                                PT
+                            </button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="../es/index.html">
+                                    <img class="bandeira" src="../img/icon/united-kingdom.svg" alt="bandeira inglaterra">
+                                    <span>English</span>
+                                </a>
+                                <a href="../fr/index.html">
+                                    <img class="bandeira" src="../img/icon/france.svg" alt="bandeira frança">
+                                    <span>Français</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>

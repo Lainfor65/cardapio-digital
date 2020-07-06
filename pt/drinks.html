@@ -19,34 +19,34 @@
 
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/grid.css">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/ementa.css">
-        <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>
-        <header>
-            <div class="header">
+        <header class="header">
+            <div class="container">
                 <nav>
-                    <ul>
+                    <ul class="grid-16">
                         <li>
-                            <a href="../pt/index.html"><img src="../img/icon/restaurant.svg" alt="icon garfos - carnes do convento"></a>
+                            <a href="../pt/index.html" x="x"><img src="../img/icon/restaurant.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Ementa</p>
+                            </a>
                         </li>
+
                         <li>
-                            <a href="../pt/drinks.html"><img src="../img/icon/local_bar.svg" alt="icon taça - carnes do convento"></a>
+                            <a class="foco" href="../pt/drinks.html" x="x"><img src="../img/icon/local_bar.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Bebida</p>
+                            </a>
                         </li>
+
                         <li>
-                            <a href="../pt/dessert.html"><img src="../img/icon/desert.svg" alt="icon garfos - carnes do convento"></a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="../pt/index.html">Ementa</a>
-                        </li>
-                        <li>
-                            <a href="../pt/drinks.html" class="foco">Bebidas</a>
-                        </li>
-                        <li>
-                            <a href="../pt/dessert.html">Sobremesas</a>
+                            <a href="../pt/dessert.html" x="x"><img src="../img/icon/desert.svg" alt="icon garfos - carnes do convento">
+                                <p>
+                                    Sobremesa</p>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -54,667 +54,1017 @@
         </header>
 
         <section class="title">
-            <h1>Veja nossa garrafeira.</h1>
+            <h1 class="titulo-main topo">Veja nossa garrafeira.</h1>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Bebidas</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item">
-                    <p>Caipirinha</p>
-                    <span>5,00€</span>
-                </div>
+        <!-- Inicio Bebidas -->
+        <section class="menu bebidas">
+            <div class="container">
+                <h2 class="titulo">Bebidas</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">Caipirinha</li>
+                        <li class="price">5,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Caipiroska / Caipiblack Vodka</p>
-                    <span>5,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Caipiroska / Caipiblack Vodka</li>
+                        <li class="price">5,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Caipiríssima (Rum)</p>
-                    <span>5,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">Caipiríssima (Rum)</li>
+                        <li class="price">5,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Caipirão (Licor Beirão)</p>
-                    <span>5,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">Caipirão (Licor Beirão)</li>
+                        <li class="price">5,00€</li>
+                    </ul>
 
-                <div class="item">
-                    <p>Mojito / Margarita</p>
-                    <span>6,00€</span>
+                    <ul class="item">
+                        <li class="name">Caipiroska / Caipiblack Vodka</li>
+                        <li class="price">5,00€</li>
+                    </ul>
                 </div>
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Sangrias</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item desc">
-                    <p>Sangria Branca / Tinta / Rosé</p>
-                    <span>6,50€</span>
-                </div>
-                <div class="descrition">
-                    <p>Jarro Pequeno (1/2 Litro)</p>
-                </div>
+        <!-- Inicio Sangrias -->
+        <section class="menu sangrias">
+            <div class="container">
+                <h2 class="titulo">Sangrias</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Sangria Branca / Tinta / Rosé
+                            <span class="description">Jarro Pequeno (1/2 Litro)</span>
+                        </li>
+                        <li class="price">6,50€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Sangria Branca / Tinta / Rosé</p>
-                    <span>12,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>Jarro Grande (1 Litro)</p>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Sangria Branca / Tinta / Rosé
+                            <span class="description">Jarro Grande (1 Litro)</span>
+                        </li>
+                        <li class="price">12,00€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Sangria de Espumante</p>
-                    <span>8,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>c/ Frutos Vermelhos. Jarro Pequeno (1/2 Litro)</p>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Sangria de Espumante
+                            <span class="description">
+                                c/ Frutos Vermelhos. Jarro Pequeno (1/2 Litro)</span>
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Sangria de Espumante</p>
-                    <span>14,00€</span>
                 </div>
-                <div class="descrition">
-                    <p>c/ Frutos Vermelhos. Jarro Grande (1 Litro)</p>
-                </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Sangria de Espumante
+                            <span class="description">
+                                c/ Frutos Vermelhos. Jarro Grande (1 Litro)</span>
+                        </li>
+                        <li class="price">14,00€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Sangria Branca</p>
-                    <span>7,00€</span>
-                </div>
-                <div class="descrition">
-                    <p>c/ Pepino e Gengibre. Jarro Pequeno (1/2 Litro)</p>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Sangria Branca
+                            <span class="description">
+                                c/ Pepino e Gengibre. Jarro Peuqueno (1/2 Litro)</span>
+                        </li>
+                        <li class="price">7,00€</li>
+                    </ul>
 
-                <div class="item desc">
-                    <p>Sangria Branca</p>
-                    <span>13,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Sangria Branca
+                            <span class="description">
+                                c/ Pepino e Gengibre. Jarro Grande (1 Litro)</span>
+                        </li>
+                        <li class="price">13,00€</li>
+                    </ul>
                 </div>
-                <div class="descrition">
-                    <p>c/ Pepino e Gengibre. Jarro Grande (1 Litro)</p>
-                </div>
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Águas</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>C/ Gás 0,25L</p>
-                    <span>1,50€</span>
-                </div>
+        <!-- Inicio aguas -->
+        <section class="menu aguas">
+            <div class="container">
+                <h2 class="titulo">Águas</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            C/ Gás 0,25L
+                        </li>
+                        <li class="price">1,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>S/ Gás 0,37L</p>
-                    <span>1,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            S/ Gás 0,37L
+                        </li>
+                        <li class="price">1,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>S/ Gás 0,50L</p>
-                    <span>2,20€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            S/ Gás 0,50L
+                        </li>
+                        <li class="price">2,20€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>S/ Gás 0,70L</p>
-                    <span>2,50€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            S/ Gás 0,70L
+                        </li>
+                        <li class="price">2,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>C/ Gás 0,75L</p>
-                    <span>3,50€</span>
+                    <ul class="item">
+                        <li class="name">
+                            C/ Gás 0,75L
+                        </li>
+                        <li class="price">3,20€</li>
+                    </ul>
                 </div>
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Refrigerantes</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item desc">
-                    <p>Coca Cola, Nestea, Sprite, Fanta</p>
-                    <span>2,20€</span>
-                </div>
-                <div class="descrition">
-                    <p>Lata</p>
-                </div>
+        <!-- Inicio refrigerantes -->
+        <section class="menu refrigerantes">
+            <div class="container">
+                <h2 class="titulo">Refrigerantes</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Coca Cola, Nestea, Sprite, Fanta
+                            <span class="description">Lata</span>
+                        </li>
+                        <li class="price">2,20€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Água Tónica / Ginger Ale</p>
-                    <span>2,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Água Tónica
+                        </li>
+                        <li class="price">2,00€</li>
+                    </ul>
 
+                </div>
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Cervejas</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Imperial 0,30L</p>
-                    <span>2,20€</span>
-                </div>
+        <!-- Inicio Cerveja -->
+        <section class="menu cervejas">
+            <div class="container">
+                <h2 class="titulo">Cervejas</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Imperial 0,30L
+                        </li>
+                        <li class="price">2,20€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Imperial 0,50L</p>
-                    <span>3,75€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Imperial 0,50L
+                        </li>
+                        <li class="price">3,75€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Cerveja de Garrafa 0,33L</p>
-                    <span>2,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Cerveja de Garrafa 0,33L
+                        </li>
+                        <li class="price">2,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Cerveja Garrafa Alhambra Res. 0,75L</p>
-                    <span>9,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Cerveja Garrafa Alhambra Res. 0,75L
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Somersby / Bandida do Pomar</p>
-                    <span>3,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Somersby / Bandida do Pomar
+                        </li>
+                        <li class="price">3,00€</li>
+                    </ul>
+
                 </div>
-
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Cafetaria</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Café Expresso</p>
-                    <span>1,00€</span>
-                </div>
+        <!-- Inicio cafetaria -->
+        <section class="menu cafetarias">
+            <div class="container">
+                <h2 class="titulo">Cafetarias</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Café Expresso
+                        </li>
+                        <li class="price">1,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Chá / Meia de Leite</p>
-                    <span>1,20€</span>
                 </div>
-
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Chá / Meia de Leite
+                        </li>
+                        <li class="price">1,20€</li>
+                    </ul>
+                </div>
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Whisky’s</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Novos</p>
-                    <span>4,00€</span>
-                </div>
+        <!-- Inicio Whisky’s -->
+        <section class="menu whisky’ss">
+            <div class="container">
+                <h2 class="titulo">Whisky’ss</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Novos
+                        </li>
+                        <li class="price">4,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Irlandeses</p>
-                    <span>4,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Irlandeses
+                        </li>
+                        <li class="price">4,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Velhos 12 e 15 Anos</p>
-                    <span>15,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Velhos 12 e 15 Anos
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Malte</p>
-                    <span>8,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Malte
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Japonês</p>
-                    <span>12,50€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Japonês
+                        </li>
+                        <li class="price">12,50€</li>
+                    </ul>
                 </div>
-
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Aguardentes</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Velhas</p>
-                    <span>5,00€</span>
-                </div>
+        <!-- Inicio Aguardentes -->
+        <section class="menu aguardentess">
+            <div class="container">
+                <h2 class="titulo">Aguardentess</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Velhas
+                        </li>
+                        <li class="price">5,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Adega Velha (6 anos)</p>
-                    <span>12,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Adega Velha (6 anos)
+                        </li>
+                        <li class="price">12,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Conhaque</p>
-                    <span>15,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Conhaque
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Brandy</p>
-                    <span>4,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Brandy
+                        </li>
+                        <li class="price">4,00€</li>
+                    </ul>
                 </div>
-
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Outras / Espirituosas</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Moscatel de Setúbal</p>
-                    <span>2,50€</span>
-                </div>
+        <!-- Inicio outras -->
+        <section class="menu outras-espirituosas">
+            <div class="container">
+                <h2 class="titulo">Outras / Espirituosas</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Moscatel de Setúbal
+                        </li>
+                        <li class="price">2,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Moscatel Roxo de Setúbal</p>
-                    <span>6,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Moscatel Roxo de Setúbal
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Vinho do Porto</p>
-                    <span>3,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Vinho do Porto
+                        </li>
+                        <li class="price">3,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Amêndoa Amarga / Martinis</p>
-                    <span>3,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Amêndoa Amarga / Martinis
+                        </li>
+                        <li class="price">3,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Vodka / Rum / Creme de Whisky</p>
-                    <span>5,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Vodka / Rum / Creme de Whisky
+                        </li>
+                        <li class="price">5,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Gin Gordon’s</p>
-                    <span>6,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Gin Gordon’s
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Gin Bombay</p>
-                    <span>7,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Gin Bombay
+                        </li>
+                        <li class="price">7,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Gin Tanqueray</p>
-                    <span>9,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Gin Tanqueray
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Gin Hendrick’s
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Rum Diplomático
+                        </li>
+                        <li class="price">12,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Porto LBV
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
+
                 </div>
-
-                <div class="item ">
-                    <p>Gin Hendrick’s</p>
-                    <span>10,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Porto LBV</p>
-                    <span>6,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Rum Diplomático</p>
-                    <span>12,00€</span>
-                </div>
-
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Vinhos Verdes</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Casal Garcia 0,37L</p>
-                    <span>5,00€</span>
-                </div>
+        <!-- Inicio vinho branco -->
+        <section class="menu vinho-branco">
+            <div class="container">
+                <h2 class="titulo">Vinhos Brancos</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Fontanário de Pegões 0,75L
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Casal Garcia 0,75L</p>
-                    <span>8,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            BSE 0,75L
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Quinta da Aveleda 0,37L</p>
-                    <span>8,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            BSE 0,37L
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Quinta da Aveleda 0,75L</p>
-                    <span>9,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Planalto 0,75L
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Muralhas de Monção 0,75L</p>
-                    <span>9,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Planalto 0,37L
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Soalheiro 0,75L</p>
-                    <span>15,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Catarina 0,75L
+                        </li>
+                        <li class="price">11,00€</li>
+                    </ul>
 
+                    <ul class="item">
+                        <li class="name">
+                            Adega de Pegões Colheita Sel. 0,75L
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Vinho da Casa – Alcube Jarro 1L
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Vinho da Casa – Alcube Jarro 0,5L
+                        </li>
+                        <li class="price">3,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Vinho da Casa – Alcube Copo 15Cl
+                        </li>
+                        <li class="price">2,00€</li>
+                    </ul>
+
+                </div>
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <section class="menu">
-            <h2 class="titulo">Vinhos Rosé</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Mateus 0,37L</p>
-                    <span>6,00€</span>
-                </div>
+        <!-- Inicio vinho verde -->
+        <section class="menu vinho-verde">
+            <div class="container">
+                <h2 class="titulo">Vinhos verdes</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Casal Garcia 0,37L
+                        </li>
+                        <li class="price">5,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Mateus 0,75L</p>
-                    <span>10,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Casal Garcia 0,75L
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Esporão Vinha da Defesa 0,75L</p>
-                    <span>11,50€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Quinta da Aveleda 0,37
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Roxo – José Maria da Fonseca</p>
-                    <span>18,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Quinta da Aveleda 0,75L
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
 
+                    <ul class="item">
+                        <li class="name">
+                            Muralhas de Monção 0,75L
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Soalheiro 0,75L
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
+
+                </div>
+                <!-- Fim Itens -->
             </div>
         </section>
 
-        <!-- Espumante -->
-        <section class="menu">
-            <h2 class="titulo">Espumantes</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <div class="item ">
-                    <p>Lambrusco Tinto / Rosé 0,75L</p>
-                    <span>8,00€</span>
-                </div>
+        <!-- Inicio vinho rose -->
+        <section class="menu vinho-rose">
+            <div class="container">
+                <h2 class="titulo">Vinhos roses</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Mateus 0,37L
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Raposeira Reserva Meio Seco 0,75L</p>
-                    <span>10,00€</span>
-                </div>
+                    <ul class="item">
+                        <li class="name">
+                            Mateus 0,75LL
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Raposeira Reserva Bruto 0,75L</p>
-                    <span>12,00€</span>
                 </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Esporão Vinha da Defesa 0,75L
+                        </li>
+                        <li class="price">11,50€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Murganheira 0,75L</p>
-                    <span>22,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Roxo – José Maria da Fonseca
+                        </li>
+                        <li class="price">18,00€</li>
+                    </ul>
+
                 </div>
-
-                <div class="item ">
-                    <p>Möet & Chandon 0,75L</p>
-                    <span>55,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Filipe Pato (Rosé) 0,75L</p>
-                    <span>16,00€</span>
-                </div>
-
+                <!-- Fim Itens -->
             </div>
         </section>
-        <!-- Espumante -->
 
-        <!-- Vinho Tinto -->
-        <section class="menu">
-            <h2 class="titulo">Vinhos Tintos</h2>
-            <div class="barra"></div>
-            <div class="itens">
-                <!-- regiao -->
-                <div class="regiao">
-                    <h3>– Região do Alentejo –</h3>
+        <!-- Inicio espumante -->
+        <section class="menu espumantes">
+            <div class="container">
+                <h2 class="titulo">Espumantes</h2>
+                <div class="barra"></div>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Mateus 0,37L
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Mateus 0,75LL
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Mateus 0,75LL
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
                 </div>
-                <!-- regiao -->
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Murganheira 0,75L
+                        </li>
+                        <li class="price">22,00€</li>
+                    </ul>
 
-                <div class="item ">
-                    <p>Monte Velho 0,37L</p>
-                    <span>7,00€</span>
+                    <ul class="item">
+                        <li class="name">
+                            Möet & Chandon 0,75L
+                        </li>
+                        <li class="price">55,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Filipe Pato (Rosé) 0,75L
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
+
                 </div>
-
-                <div class="item ">
-                    <p>Monte Velho 0,75L</p>
-                    <span>10,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Monte das Servas Escolha 0,75L</p>
-                    <span>10,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Fundação Eugénio de Almeida 0,75L</p>
-                    <span>12,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Marquês de Borba 0,37L</p>
-                    <span>8,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Marquês de Borba 0,75L</p>
-                    <span>12,50€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Comenda Grande 0,75L</p>
-                    <span>14,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Monte da Pesseguina 0,75L</p>
-                    <span>17,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Poliphonia Reserva 0,75LL</p>
-                    <span>20,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Cartuxa 0,75L</p>
-                    <span>30,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Esporão Reserva 0,75L</p>
-                    <span>30,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Mouchão</p>
-                    <span>65,00€</span>
-                </div>
-
-                <!-- regiao -->
-                <div class="regiao">
-                    <h3>– Região de Setúbal –</h3>
-                </div>
-                <!-- regiao -->
-
-                <div class="item ">
-                    <p>Vinho da Casa – Alcube Jarro 1L</p>
-                    <span>6,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Vinho da Casa – Alcube Jarro 0,5L</p>
-                    <span>3,50€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Vinho da Casa – Alcube Copo 15Cl</p>
-                    <span>2,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Alcube</p>
-                    <span>8,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Herdade de Myrtus 0,75L</p>
-                    <span>8,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Marquês de Borba 0,75L</p>
-                    <span>12,50€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Fontanário de Pegões 0,75L</p>
-                    <span>9,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Lobo Multicastas 0,75L</p>
-                    <span>9,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>D. Ermelinda 0,75L</p>
-                    <span>9,50€</span>
-                </div>
-
-                <div class="item ">
-                    <p>D. Ermelinda 0,37L</p>
-                    <span>6,50€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Periquita 0,37L</p>
-                    <span>6,50€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Periquita 0,75L</p>
-                    <span>10,50€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Alcube Trincadeira/Syrah</p>
-                    <span>12,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Herdade de Myrtus Reserva 0,75L</p>
-                    <span>13,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Adega de Pegões Colheita Sel. 0,75L</p>
-                    <span>14,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Terras do Pó Reserva 0,75L</p>
-                    <span>15,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Alcube Reserva 0,75L</p>
-                    <span>16,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Quinta de Monte Alegre Reserva 0,75L</p>
-                    <span>16,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Quinta da Mimosa 0,75L</p>
-                    <span>17,00€</span>
-                </div>
-
-                <!-- regiao -->
-                <div class="regiao">
-                    <h3>– Região do Dão –</h3>
-                </div>
-                <!-- regiao -->
-
-                <div class="item ">
-                    <p>Quinta de Cabriz Colheita Sel. 0,75L</p>
-                    <span>10,00€</span>
-                </div>
-
-                <!-- regiao -->
-                <div class="regiao">
-                    <h3>– Região do Douro –</h3>
-                </div>
-                <!-- regiao -->
-
-                <div class="item ">
-                    <p>Porca de Murça 0,75L</p>
-                    <span>9,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Papa Figos – Casa Ferreirinha 0,75L</p>
-                    <span>12,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Rola 0,75L</p>
-                    <span>16,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Carm Reserva 0,75L</p>
-                    <span>20,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Bafarela Grande Reserva 0,75L</p>
-                    <span>20,00€</span>
-                </div>
-
-                <div class="item ">
-                    <p>Quinta do Filoco Reserva 0,75L</p>
-                    <span>20,00€</span>
-                </div>
-
+                <!-- Fim Itens -->
             </div>
         </section>
-        <!-- Vinho Tinto -->
 
-        <footer class="home-footer">
-            <div>
-                <p>
-                    <span>Carnes do Convento</span>
-                    © 2020 - Todos os direitos reservado | By
-                    <a href="https://www.wanderson-oliveira.com" target="_blank">
-                        Wanderson O.</a>
-                </p>
+        <!-- Inicio vinhos tinto -->
+        <section class="menu vinho-tinto">
+            <div class="container">
+                <h2 class="titulo">Vinhos Tinto</h2>
+                <div class="barra"></div>
+
+                <h3 class="regiao grid-16">– Região do Alentejo –</h3>
+                <!-- Itens 1ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Monte Velho 0,37L
+                        </li>
+                        <li class="price">7,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Monte Velho 0,75L
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Monte das Servas Escolha 0,75L
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Marquês de Borba 0,37L
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Marquês de Borba 0,75L
+                        </li>
+                        <li class="price">12,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Comenda Grande 0,75L
+                        </li>
+                        <li class="price">14,00€</li>
+                    </ul>
+
+                </div>
+                <!-- Itens 2ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Monte da Pesseguina 0,75L
+                        </li>
+                        <li class="price">17,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Poliphonia Reserva 0,75LL
+                        </li>
+                        <li class="price">20,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Cartuxa 0,75L
+                        </li>
+                        <li class="price">30,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Esporão Reserva 0,75L
+                        </li>
+                        <li class="price">30,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Mouchão
+                        </li>
+                        <li class="price">65,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Cartuxa 0,75L
+                        </li>
+                        <li class="price">30,00€</li>
+                    </ul>
+                </div>
+
+                <h3 class="regiao grid-16">– Região de Setúbal –</h3>
+                <!-- Itens 3ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Vinho da Casa – Alcube Jarro 1L
+                        </li>
+                        <li class="price">6,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Vinho da Casa – Alcube Jarro 0,5L
+                        </li>
+                        <li class="price">3,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Vinho da Casa – Alcube Copo 15Cl
+                        </li>
+                        <li class="price">2,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Alcube
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Herdade de Myrtus 0,75L
+                        </li>
+                        <li class="price">8,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Marquês de Borba 0,75L
+                        </li>
+                        <li class="price">12,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Fontanário de Pegões 0,75L
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Lobo Multicastas 0,75L
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            D. Ermelinda 0,75L
+                        </li>
+                        <li class="price">9,50€</li>
+                    </ul>
+
+                </div>
+                <!-- Itens 4ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            D. Ermelinda 0,37L
+                        </li>
+                        <li class="price">6,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Periquita 0,37L
+                        </li>
+                        <li class="price">6,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Periquita 0,75L
+                        </li>
+                        <li class="price">10,50€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Alcube Trincadeira/Syrah
+                        </li>
+                        <li class="price">12,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Herdade de Myrtus Reserva 0,75L
+                        </li>
+                        <li class="price">13,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Adega de Pegões Colheita Sel. 0,75L
+                        </li>
+                        <li class="price">14,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Terras do Pó Reserva 0,75L
+                        </li>
+                        <li class="price">15,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Alcube Reserva 0,75L
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Quinta da Mimosa 0,75L
+                        </li>
+                        <li class="price">17,00€</li>
+                    </ul>
+                </div>
+
+                <h3 class="regiao grid-16">– Região do Dão –</h3>
+                <!-- Itens 5ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Quinta de Cabriz Colheita Sel. 0,75L
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+                </div>
+                <h3 class="regiao grid-16">– Região do Douro –</h3>
+                <!-- Itens 5ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Porca de Murça 0,75L
+                        </li>
+                        <li class="price">9,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Quinta de Cabriz Colheita Sel. 0,75L
+                        </li>
+                        <li class="price">10,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Rola 0,75L
+                        </li>
+                        <li class="price">16,00€</li>
+                    </ul>
+                </div>
+
+                <!-- Itens 6ª Coluna -->
+                <div class="itens grid-8">
+                    <ul class="item">
+                        <li class="name">
+                            Carm Reserva 0,75L
+                        </li>
+                        <li class="price">20,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Bafarela Grande Reserva 0,75L
+                        </li>
+                        <li class="price">20,00€</li>
+                    </ul>
+
+                    <ul class="item">
+                        <li class="name">
+                            Quinta do Filoco Reserva 0,75L
+                        </li>
+                        <li class="price">20,00€</li>
+                    </ul>
+                </div>
+
+                <!-- Fim Itens -->
             </div>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    <img src="../img/icon/portugal.svg" alt="" class="bandeira">
-                    PT
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#">
-                        <img class="bandeira" src="../img/icon/united-kingdom.svg" alt="">
-                        English
-                    </a>
-                    <a href="#">
-                        <img class="bandeira" src="../img/icon/france.svg" alt="">
-                        Français
-                    </a>
+        </section>
+
+        <footer>
+            <div class="footer-home">
+                <div class="container">
+                    <div class="grid-14 footer-p">
+                        <p>Carnes do Convento &copy 2020 - Todos os direitos reservado</p>
+                    </div>
+                    <div class="grid-2">
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <img src="../img/icon/portugal.svg" alt="bandeir portugal" class="bandeira">
+                                PT
+                            </button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="../es/index.html">
+                                    <img class="bandeira" src="../img/icon/united-kingdom.svg" alt="bandeira inglaterra">
+                                    <span>English</span>
+                                </a>
+                                <a href="../fr/index.html">
+                                    <img class="bandeira" src="../img/icon/france.svg" alt="bandeira frança">
+                                    <span>Français</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
+
         <script src="../js/script.js"></script>
     </body>
 </html>

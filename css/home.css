@@ -1,53 +1,49 @@
 /* HOME */
-.img {
-    padding-top: 14px;
+.header-home {
     background: url(../img/entrada.png) no-repeat;
     background-size: cover;
     width: 100%;
-    margin: 0;
-}
-.home-main {
     margin: 0 auto;
     text-align: center;
 }
 
-.home-main h1 {
-    margin: 15px auto;
+.header-home img {
+    padding-top: 30px;
+    width: 180px;
+}
+
+.header-home h1 {
+    margin: 25px auto;
     max-width: 150px;
 
     font-family: "Arial";
-    font-size: 40px;
-    line-height: 45px;
-    text-align: center;
+    font-size: 46px;
     font-weight: bold;
-
     color: #ffffff;
 }
 
-.home-main ul li {
+.header-home ul li {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 25px;
-    text-align: center;
     font-weight: bold;
     line-height: 35px;
     letter-spacing: .08em;
 }
 
-.home-main nav {
-    text-align: center;
+.header-home nav {
     padding-top: 20px;
     padding-bottom: 60px;
 }
 
-.home-main nav a {
+.header-home nav a {
     font-size: 18px;
     line-height: 19px;
 
     display: block;
-    padding: 10px 20px;
-    margin: 5px auto;
-    max-width: 130px;
+    padding: 15px 35px;
+    margin: 8px auto;
+    max-width: 230px;
 
     border: 3px solid #fff;
     border-radius: 6px;
@@ -57,10 +53,24 @@
     transition: 300ms;
 }
 
-.home-main a:hover {
+.header-home a:hover {
     font-size: 18px;
     line-height: 21px;
     text-decoration: underline #B71524;
+}
+
+
+
+/* footer */
+.footer-home {
+    width: 100%;
+    background-color: #B71524;
+}
+
+.footer-home p {
+    padding: 20px 5px;
+    color: #fff;
+    text-align: center;
 }
 
 
