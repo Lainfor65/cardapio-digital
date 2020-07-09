@@ -23,7 +23,7 @@ p, a, span, li {
     padding: 5px 0;
     position: fixed;
     width: 100%;
-    top: 0;
+    top:  0;
     z-index: 1;
 }
 
@@ -151,9 +151,9 @@ p, a, span, li {
 }
 
 .menu .mensagem .mensagem2 {
-    max-width: 220px;
+    max-width: 260px;
     text-align: center;
-    margin: 0 auto;
+    line-height: 17px;
 }
 
 .menu .regiao {
@@ -194,7 +194,7 @@ p, a, span, li {
     text-align: center;
 }
 
-.footer-home p {
+.footer-home {
     padding: 10px 5px;
     color: #fff;
     text-align: center;
@@ -205,17 +205,17 @@ p, a, span, li {
   /* Dropdown Button */
 .dropbtn {
     display: grid;
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0px; 
-    padding: 5px;
-    font-size: 12px;
+    padding: 2px;
+    font-size: 10px;
     border: 1px solid #fff;
     overflow: none;
     border-radius: 6px;
     cursor: pointer;
     background: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -229,19 +229,19 @@ p, a, span, li {
     display: none;
     position: absolute;
     right: -12px;
-    top: -65px;
+    top: -70px;
     background-color: #c42424;
     max-width:200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   .bandeira {
-      width: 15px;
+      width: 16px;
   }
   /* Links inside the dropdown */
   .dropdown-content a {
     display: grid;
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2px;
     color: #fff;
     padding: 2px 12px;
