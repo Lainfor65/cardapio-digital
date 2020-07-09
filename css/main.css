@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,700;1,400;1,700&display=swap');
 
 /* GERAL */
 p {
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
-
+line-height: 25px;
 color: #000000;
 }
-h2, h3, h4, p, a, span {
-    font-family: "Roboto Condensed";
+h2, h3, h4 {
+    font-family: Arial;
 }
 
+p, a, span, li {
+    font-family: "Quattrocento Sans";
+}
 
 /* Header  */
 .header {
@@ -51,7 +53,7 @@ h2, h3, h4, p, a, span {
 /* Sections */
 
 .titulo-main.topo {
-    margin-top: 80px;
+    margin: 80px auto 20px auto;
 }
 
 .titulo-main {
@@ -62,7 +64,7 @@ h2, h3, h4, p, a, span {
 }
 
 .menu {
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
 .menu h2 {
@@ -136,7 +138,7 @@ h2, h3, h4, p, a, span {
 
 .menu .aviso {
     font-size: 16px;
-    color: #2b1fce;
+    color: #7b73f3;
     font-style: italic;
 }
 .menu .mensagem {
@@ -188,7 +190,7 @@ h2, h3, h4, p, a, span {
 .footer-home {
     width: 100%;
     background-color: #B71524;
-    padding: 5px 5px;
+    padding: 5px;
     text-align: center;
 }
 
