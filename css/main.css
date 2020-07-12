@@ -204,10 +204,7 @@ p, a, span, li {
 
   /* Dropdown Button */
 .dropbtn {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px; 
-    padding: 2px;
+    padding: 5px;
     font-size: 10px;
     border: 1px solid #fff;
     overflow: none;
@@ -231,22 +228,23 @@ p, a, span, li {
     right: -12px;
     top: -70px;
     background-color: #c42424;
-    max-width:200px;
+    width: 110px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
+
   .bandeira {
-      width: 16px;
+      width: 15px;
   }
+
   /* Links inside the dropdown */
   .dropdown-content a {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2px;
     color: #fff;
-    padding: 2px 12px;
-    margin: 5px 12px;
-    text-decoration: none;
+    padding: 2px 6px;
+    margin: 5px 6px;
+    display: grid;
+   
+    grid-template-columns: 1fr 6fr;
   }
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
