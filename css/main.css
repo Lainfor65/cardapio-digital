@@ -7,7 +7,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 25px;
-color: #000000;
+color: #000;
 }
 h2, h3, h4 {
     font-family: Arial;
@@ -94,7 +94,7 @@ p, a, span, li {
 .itens ul .name{
     font-size: 22px;
     line-height: 25px;
-    color: #000000;
+    color: #333333;
 }
 
 .itens ul li .description {
@@ -102,7 +102,7 @@ p, a, span, li {
     text-align: left;
     font-size: 16px;
     font-style: italic;
-    color: #999898;
+    color: #8999a7;
  }
 
 .itens ul .price {
@@ -110,7 +110,7 @@ p, a, span, li {
     font-size: 18px;
     line-height: 22px;
     text-align: right;
-    color: #A3A3A3;
+    color: #888888;
 }
 
    
@@ -159,7 +159,7 @@ p, a, span, li {
 .menu .regiao {
     text-align: center;
     font-size: 26px;
-    color: #000;
+    color: rgb(27, 27, 27);
     margin: 15px 0;
     font-weight: bold;
 }
@@ -175,7 +175,7 @@ p, a, span, li {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 4px;
-    color: #000;
+    color: rgb(27, 27, 27);
 }
 
 .acompanhamentos p {
@@ -183,7 +183,7 @@ p, a, span, li {
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
-    color: #1f1e1e;
+    color: #333333;
 }
 
 /* footer */
