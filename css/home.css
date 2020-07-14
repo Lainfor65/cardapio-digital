@@ -9,26 +9,8 @@
 }
 
 .header-home img {
-    padding-top: 30px;
-    width: 180px;
-}
-
-.header-home h1 {
-    margin: 25px auto 5px auto;
-    max-width: 150px;
-    font-family: "Arial";
-    font-size: 46px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.header-home h2 {
-    font-size: 20px;
-    font-style: italic;
-    text-decoration: underline #B71524;
-    color: #fff;
-    margin-bottom: 20px;
-
+    padding: 30px 0;
+    width: 300px;
 }
 
 .header-home ul li {
@@ -62,6 +44,39 @@
     text-decoration: underline #B71524;
 }
 
+.header-home h2 {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: underline #B71524;
+}
+
+.social {
+    margin: 15px 0;
+    padding: 5px 10px;
+}
+
+.social li {
+    display: inline-block;
+    border: 3px solid #fff; 
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 10px 25px;
+}
+
+.social li:hover {
+    border-color: #B71524; 
+}
+
+.social li a {
+    margin-left: 30px;
+    margin: 0 auto;
+}
+
+.social li a i{
+    font-size: 60px;
+    color: #fff;
+}
+
 
 /* footer */
 .footer-home {
@@ -81,17 +96,6 @@
 .footer-home ul li a {
     margin-right: 10px;
     color: #fff;
-}
-
-
-
-.footer-home ul li a i {
-    font-size: 25px;
-    padding: 5px;
-}
-
-.footer-home ul li a i:hover {
-    color: #000;
 }
 
 .footer-home p {
