@@ -126,6 +126,8 @@
 
     .itens ul li .description {
         font-size: 12px;
+        margin-top: 0px;
+
      }
 
      .itens ul .price {
@@ -163,7 +165,7 @@
     }
 
     .menu .mensagem .mensagem2 {
-        max-width: 70%;
+        max-width: 75%;
         text-align: center;
         margin: 0 auto;
     }

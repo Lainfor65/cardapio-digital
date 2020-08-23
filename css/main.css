@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,700;1,400;1,700&display=swap');
 
 /* GERAL */
+body {
+    background-color: #FFF7FF;
+}
 p {
 font-style: normal;
 font-weight: normal;
@@ -10,7 +13,7 @@ line-height: 25px;
 color: #000;
 }
 h2, h3, h4 {
-    font-family: Arial;
+    font-family: "Quattrocento Sans";
 }
 
 p, a, span, li {
@@ -94,15 +97,17 @@ p, a, span, li {
 .itens ul .name{
     font-size: 22px;
     line-height: 25px;
-    color: #333333;
+    color: #3E3C3C;
 }
 
 .itens ul li .description {
+    margin-top: 3px;
     display: block;
     text-align: left;
     font-size: 16px;
     font-style: italic;
     color: #8999a7;
+    line-height: 1rem;
  }
 
 .itens ul .price {
@@ -110,7 +115,7 @@ p, a, span, li {
     font-size: 18px;
     line-height: 22px;
     text-align: right;
-    color: #888888;
+    color: #A99F9F;
 }
 
    
@@ -126,7 +131,7 @@ p, a, span, li {
 .barra {
     margin: 8px 0;
     height: 2px;
-    background-color: #000;
+    background-color: #C4C4C4;
     width: 100%;
 }
 
@@ -148,12 +153,15 @@ p, a, span, li {
 .menu .mensagem .mensagem1 {
     margin: 7px 0;
     text-align: right;
+    color: #7C7777;
 }
 
 .menu .mensagem .mensagem2 {
     max-width: 260px;
     text-align: center;
     line-height: 17px;
+    color: #7C7777;
+
 }
 
 .menu .regiao {
@@ -175,7 +183,7 @@ p, a, span, li {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 4px;
-    color: rgb(27, 27, 27);
+    color: #7C7777;
 }
 
 .acompanhamentos p {
@@ -183,7 +191,7 @@ p, a, span, li {
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
-    color: #333333;
+    color: #A99F9F;
 }
 
 /* footer */
