@@ -1,0 +1,294 @@
+{
+   "menu": [
+      {
+         "title": "Entrada",
+         "subtitle": "",
+         "notice": "",
+         "description": "",
+         "garnishes": [],
+         "items": [
+            {
+               "name": "Pão",
+               "price": "1,50 €",
+               "description": ""
+            },
+            {
+               "name": "Manteiga",
+               "price": "0,70 €",
+               "description": ""
+            },
+            {
+               "name": "Queijo Amanteigado",
+               "price": "3,75 €",
+               "description": ""
+            },
+            {
+               "name": "Patê",
+               "price": "0,70 €",
+               "description": ""
+            },
+            {
+               "name": "Azeitonas",
+               "price": "1,00 €",
+               "description": ""
+            },
+            {
+               "name": "Painho Alentejano de Porco Preto",
+               "price": "4,00 €",
+               "description": ""
+            },
+            {
+               "name": "Presunto Porco Duroc Reserva",
+               "price": "4,00 €",
+               "description": ""
+            },
+            {
+               "name": "Presunto Bellota 100% Ibérico 5J",
+               "price": "25,00 €/70grs",
+               "description": ""
+            },
+            {
+               "name": "Alheira",
+               "price": "4,00 €",
+               "description": "Caça / Vegetariana / Tradicional"
+            },
+            {
+               "name": "Salsicha Brasileira",
+               "price": "1,75 €",
+               "description": ""
+            },
+            {
+               "name": "Camarão Frito ao Alho",
+               "price": "9,00 €",
+               "description": ""
+            },
+            {
+               "name": "Carabineiro Grelhado",
+               "price": "90,00 €/kg",
+               "description": ""
+            },
+            {
+               "name": "Sopa do Dia",
+               "price": "2,20 €",
+               "description": ""
+            }
+         ]
+      },
+      {
+         "title": "Cortes Premium",
+         "subtitle": "Grelhadas no carvão",
+         "notice": "",
+         "description": "",
+         "garnishes": ["Arroz", "Batatas", "Fritas", "Feijão Preto, Farofa e Vinagrete"],
+         "items": [
+            {
+               "name": "Posta de Entrecôte",
+               "price": "16 €/un",
+               "description": "América do Sul (+/- 300 grs)"
+            },
+            {
+               "name": "Posta de Fraldinha",
+               "price": "18 €/un",
+               "description": "Black Angus (+/- 300 grs)"
+            },
+            {
+               "name": "Lombo Galego",
+               "price": "19 €/un",
+               "description": "Com 7 dias de maturação (+/- 300 grs)"
+            }
+         ]
+      },
+      {
+         "title": "Carnes Grelhadas no Carvão",
+         "subtitle": "",
+         "notice": "",
+         "description": "(1 pessoa +/- 250 grs )",
+         "garnishes": ["Arroz", "Batatas Fritas", "Feijão Preto, Farofa e Vinagrete"],
+         "items": [
+            {
+               "name": "Bife de Frango",
+               "price": "10,00 €",
+               "description": ""
+            },
+            {
+               "name": "Bitoque de Vaca",
+               "price": "11,00 €",
+               "description": ""
+            },
+            {
+               "name": "Bifinhos de Vitela c/ Natas Cogumelos",
+               "price": "13,00 €",
+               "description": "Com 7 dias de maturação (+/- 300 grs)"
+            },
+            {
+               "name": "Entrecôte c/ Camarão",
+               "price": "17,00 €",
+               "description": "e molho de maracujá (+/- 300 grs)"
+            }
+         ]
+      },
+      {
+         "title": "Pedra",
+         "subtitle": "",
+         "notice": "(Só disponivel na Esplanada)",
+         "description": "(2 pessoa +/- 500 grs)",
+         "garnishes": ["Arroz", "Batatas Fritas", "Molhos", "Frutas"],
+         "items": [
+            {
+               "name": "Veado",
+               "price": "31,00 €",
+               "description": ""
+            },
+            {
+               "name": "Javali",
+               "price": "31,00 €",
+               "description": ""
+            },
+            {
+               "name": "Mista de Javali e Veado",
+               "price": "31,00 €",
+               "description": ""
+            },
+            {
+               "name": "Canguru",
+               "price": "32,00 €",
+               "description": ""
+            }
+         ]
+      },
+      {
+         "title": "Espetadas",
+         "subtitle": "Grelhadas no carvão",
+         "notice": "",
+         "description": "(Intercalado com Bacon, Cebola e pimentos)",
+         "garnishes": ["Arroz", "Batatas Fritas", "Molhos", "Frutas"],
+         "timeWarning": "(tempo de confeção elevado 35-45 minutos)",
+         "items": [
+            {
+               "name": "Veado",
+               "price": "16,00 €",
+               "description": ""
+            },
+            {
+               "name": "Javali",
+               "price": "16,00 €",
+               "description": ""
+            },
+            {
+               "name": "Mista de Javali e Veado",
+               "price": "16,00 €",
+               "description": ""
+            },
+            {
+               "name": "Canguru",
+               "price": "16,00 €",
+               "description": ""
+            }
+         ]
+      },
+      {
+         "title": "Fondue",
+         "subtitle": "em Vinho Tinto",
+         "notice": "",
+         "description": "(2 pessoa +/- 500 grs)",
+         "garnishes": ["Arroz", "Batatas Fritas", "Molhos", "Frutas"],
+         "items": [
+            {
+               "name": "Veado",
+               "price": "32,00 €",
+               "description": ""
+            },
+            {
+               "name": "Javali",
+               "price": "32,00 €",
+               "description": ""
+            },
+            {
+               "name": "Mista de Javali e Veado",
+               "price": "32,00 €",
+               "description": ""
+            },
+            {
+               "name": "Canguru",
+               "price": "32,00 €",
+               "description": ""
+            }
+         ]
+      },
+      {
+         "title": "Peixe",
+         "subtitle": "",
+         "notice": "",
+         "description": "",
+         "garnishes": ["Arroz", "Batatas Fritas", "Molhos", "Frutas"],
+         "timeWarning": "(tempo de confeção elevado 35-45 minutos)",
+         "items": [
+            {
+               "name": "Posta de Bacalhau com Grão",
+               "price": "12,00 €",
+               "description": ""
+            },
+            {
+               "name": "Posta de Bacalhau Braseada",
+               "price": "16,00 €",
+               "description": "Coberta com Camarão ao Alho"
+            },
+            {
+               "name": "Lombo de Salmão Braseado",
+               "price": "16,00 €",
+               "description": ""
+            }
+         ]
+      },
+      {
+         "title": "Hambúrgueres Gourmet",
+         "subtitle": "no Prato",
+         "notice": "",
+         "description": "",
+         "timeWarning": "(tempo de confeção elevado 35-45 minutos)",
+         "items": [
+            {
+               "name": "Frango",
+               "price": "10,00 €",
+               "description": ""
+            },
+            {
+               "name": "Picanha",
+               "price": "11,00 €",
+               "description": "Coberta com Camarão ao Alho"
+            },
+            {
+               "name": "Maminha",
+               "price": "11,00 €",
+               "description": ""
+            }
+         ]
+      },
+      {
+         "title": "Acompanhamentos Extra",
+         "subtitle": "",
+         "notice": "",
+         "description": "",
+         "items": [
+            {
+               "name": "Batatas Fritas",
+               "price": "2,20 €",
+               "description": ""
+            },
+            {
+               "name": "Arroz",
+               "price": "1,75 €",
+               "description": "Coberta com Camarão ao Alho"
+            },
+            {
+               "name": "Feijão Preto",
+               "price": "2,00 €",
+               "description": ""
+            }
+         ]
+      }
+   ],
+   "drinks": [
+      
+   ]
+}
