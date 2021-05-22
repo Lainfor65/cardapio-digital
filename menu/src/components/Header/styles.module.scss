@@ -1,0 +1,94 @@
+.bg {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   padding: 5rem 3rem;
+   color: #fff;
+   background-image: url('../../../public/fundo_ementa.jpg');
+   background-size: cover;
+
+   h1 {
+      font-size: 2rem;
+      font-weight: 400;
+   }
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   background: #E30313;
+   padding: 0.875rem 1rem;
+
+   button {
+      font-size: 0.75rem;
+      border: none;
+      background: none;
+      color: #fff;
+
+   }
+
+   .btnMenu {
+      background: #eee;
+      border-radius: .2rem;
+      height: 40px;
+      width: 40px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid transparent;
+      transition: .1s;
+      cursor: pointer;
+   }
+
+   .btnMenu {
+      content: '';
+      display: block;
+      width: 1.6rem;
+      height: 2px;
+      border-radius: 2px;
+      background: currentColor;
+      box-shadow: 0 8px currentColor, 0 -8px currentColor;
+      transition: 0.2s;
+
+      &:focus,
+      .btnMenuActive {
+         outline: none;
+         background: white;
+         box-shadow: 0 0 0 3px #fff;   
+      }
+
+      &.btnMenuActive {
+         transform: rotate(-90deg);
+         width: 4px;
+         height: 4px;
+         box-shadow: 0 8px currentColor, 0 -8px currentColor;
+      }
+   }
+
+   form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      input {
+         padding: 0.4rem 0.5rem;
+         border-radius: 15px;
+         border: none;
+      }
+
+      input[placeholder] {
+         font-size: 0.75rem;
+         color: #565656;
+         min-width: 160px;
+         background-color: #FFCBCF;
+      }
+
+      label {
+         margin: 0  0.250rem;
+      }
+   }
+}
