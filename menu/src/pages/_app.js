@@ -4,6 +4,7 @@ import '../style/global.scss';
 import { Header } from '../components/Header';
 
 import styles from '../style/app.module.scss'
+import HeaderNav from '../components/HeaderNav';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
         <main>
           <Component {...pageProps} />
         </main>
+        <HeaderNav />
     </div>
   )
 }
